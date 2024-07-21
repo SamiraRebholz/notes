@@ -1,0 +1,8 @@
+@import url(./variables.css);
+@import url(../fonts/clashGrotesk/clashGrotesk.css.css);
+@import url(../fonts/nunito/nunito.css);
+
+body {
+    font-family: 'ClashGrotesk-Regular', sans-serif;
+    
+}

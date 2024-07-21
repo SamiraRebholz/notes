@@ -1,0 +1,25 @@
+:root {
+    /* Hintergrundfarben */
+    --background-color: #F5F5F5;
+    --note-background-color: #FFFFFF;
+  
+    /* Primärfarben */
+    --primary-color: #2C3E50;
+    --primary-accent-color: #3498DB;
+  
+    /* Sekundärfarben */
+    --secondary-color: #27AE60;
+    --secondary-warning-color: #E67E22;
+  
+    /* Akzentfarben */
+    --accent-positive-color: #2ECC71;
+    --accent-negative-color: #E74C3C;
+  
+    /* Textfarben */
+    --text-main-color: #34495E;
+    --text-secondary-color: #7F8C8D;
+    --text-placeholder-color: #BDC3C7;
+  
+    /* Schattierungen*/
+    --border-shadow-color: #D6DBDF;
+  }
