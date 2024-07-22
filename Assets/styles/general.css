@@ -4,5 +4,34 @@
 
 body {
     font-family: 'ClashGrotesk-Regular', sans-serif;
-    
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0.5rem;
+    height: 100vh;
+    grid-template-areas: 'sidebar content';
+    padding: 0.5rem;
+}
+
+.side {
+    grid-area: 'sidebar';
+    background-color: var(--background-color);
+}
+.note {
+    grid-area: 'content';
+    background-color: var(--note-background-color);
+}
+.iconRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--border-shadow-color);
+}
+.iconRow.right {
+    justify-content: flex-end;
 }
