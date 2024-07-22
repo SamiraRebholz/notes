@@ -31,7 +31,12 @@ main {
     align-items: center;
     padding: 0.5rem;
     border-bottom: 1px solid var(--border-shadow-color);
+    height: 2rem;
 }
 .iconRow.right {
     justify-content: flex-end;
+}
+.iconRow img {
+    width: 1.7rem;
+    height: 1.7rem;
 }
