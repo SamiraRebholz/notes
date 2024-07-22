@@ -54,3 +54,38 @@ main {
 .searchInput:focus {
     outline: none;
 }
+.userNoteCard {
+    line-height: 0;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color: var(--note-background-color);
+    color: var(--primary-color);
+    border: var(--border-shadow-color) 1px solid;
+    padding: 0.1rem;
+}
+.userNoteCard:hover {
+    border: var(--border-hover-color) 1px solid;
+}
+.notesOverview {
+    margin-top: 0.5rem;
+}
+.userNote {
+    margin-top: 0.5rem;
+}
+.addTitle,
+.startWriting {
+    font-size: 1.5rem;
+    display: block;
+    border: none;
+}
+.addTitle:focus,
+.startWriting:focus {
+    outline: none;
+}
+.dateAdded {
+    font-size: 0.8rem;
+    color: var(--text-secondary-color);
+    position: absolute;
+    right: 0.5rem;
+}

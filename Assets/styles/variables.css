@@ -22,4 +22,5 @@
   
     /* Schattierungen*/
     --border-shadow-color: #D6DBDF;
-  }
+    --border-hover-color: #95A5A6;
+}
