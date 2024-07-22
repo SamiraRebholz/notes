@@ -40,3 +40,17 @@ main {
     width: 1.7rem;
     height: 1.7rem;
 }
+.searchInput {
+    background-color: var(--note-background-color);
+    border: var(--border-shadow-color) 1px solid;
+    color: var(--text-main-color);
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 1.7rem;
+}
+.searchInput::placeholder {
+    color: var(--text-placeholder-color);
+}
+.searchInput:focus {
+    outline: none;
+}
