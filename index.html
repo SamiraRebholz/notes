@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./Assets/styles/general.css">
 </head>
 
-<body>
+<!--<body>
     <main>
         <section class="side">
             <section class="iconRow">
@@ -33,6 +33,31 @@
                 <input type="text" placeholder="Start writing..." class="startWriting">
             </section>
             
+        </section>
+    </main>
+    <script src="./Features/add/add.js"></script>
+</body>-->
+<body>
+    <main>
+        <section class="side">
+            <section class="iconRow">
+                <img src="./Assets/icons/plus.svg" alt="add note" class="add">
+                <input type="text" class="searchInput">
+                <img src="./Assets/icons/search.svg" alt="search" class="search">
+            </section>
+            <section class="notesOverview">
+                <!-- Note cards will be appended here -->
+            </section>
+        </section>
+        <section class="note">
+            <section class="iconRow right">
+                <img src="./Assets/icons/trash.svg" alt="delete" class="delete">
+            </section>
+            <section class="userNote">
+                <div class="dateAdded" id="note-date">12.34.5678</div>
+                <input type="text" placeholder="Add title" class="addTitle" id="note-title">
+                <input type="text" placeholder="Start writing..." class="startWriting" id="note-content">
+            </section>
         </section>
     </main>
     <script src="./Features/add/add.js"></script>
